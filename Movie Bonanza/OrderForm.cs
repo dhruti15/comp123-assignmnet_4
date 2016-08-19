@@ -7,13 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// <summary>
+/// Name : Dhruti Patel
+/// Student Id : 300857555
+/// Date Created : 19 August 2016
+/// </summary>
 namespace Movie_Bonanza
 {
     public partial class OrderForm : Form
     {
         private string title, category, cost;
 
+        /*
+         * 
+         * @properties : titleValue,categoryValue,costValue
+         * date Created : 19 August 2016
+         * **/
         public string titleValue {
             get { return title; }
             set { title = value; }
@@ -44,7 +53,11 @@ namespace Movie_Bonanza
         {
             Application.Exit(); 
         }
-
+        /*
+         * @method Hide;
+         * 
+         * 
+         * ***/
         private void BackButton_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -88,7 +101,13 @@ namespace Movie_Bonanza
                 GrandTotalTextBox.Text = grandTotal.ToString("C"); 
             }
         }
-
+        /*
+         *  @method : StreamButton_Click
+         *  @method : Hide
+         *  Date created : 19 August 2016;
+         * 
+         * 
+         * **/
         private void StreamButton_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -101,7 +120,11 @@ namespace Movie_Bonanza
         private void printToolStripMenuItem_Click(object sender, EventArgs e)
         {
         }
-
+        /*
+         *  @method : aboutToolStripMenuItem_Click
+         *  @Object : aSummaryForm
+         * 
+         * **/
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AboutBox aSummaryForm = new AboutBox();

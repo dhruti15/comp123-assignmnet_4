@@ -4,7 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 /// <summary>
-/// Dhruti Patel
+/// Name : Dhruti Patel
+/// Student Id : 300857555
+/// Date Created : 19 August 2016
 /// </summary>
 namespace Movie_Bonanza
 {

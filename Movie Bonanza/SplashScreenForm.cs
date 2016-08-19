@@ -16,7 +16,10 @@ namespace Movie_Bonanza
         {
             InitializeComponent();
         }
-
+        /*
+         *  @method :  timer1_Tick_1
+         *  @purpose :  To stop the timer
+         */
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             progressBar1.Increment(1);

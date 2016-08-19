@@ -8,6 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading; 
+/// <summary>
+/// Name : Dhruti Patel
+/// Student Id : 300877959  
+/// Date Created : 19 August 2016 
+/// 
+/// </summary>
 namespace Movie_Bonanza
 {
     public partial class SelectionForm : Form
@@ -138,7 +144,12 @@ namespace Movie_Bonanza
             }
         }
 
-       
+             /**
+              *  @method CategoryListBox_SelectedIndexChanged
+              *  Date Created : 19 august 2016
+              * 
+              * 
+              * **/
 
         private void CategoryListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
