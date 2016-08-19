@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 /// <summary>
-/// 
+/// Dhruti Patel
 /// </summary>
 namespace Movie_Bonanza
 {
